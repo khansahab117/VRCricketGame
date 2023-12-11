@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62777
+63896
 Successfully changed project path to: /Users/amaanasadkhan/Workspace/unity-games/VRCricketGame/VRCricket
 /Users/amaanasadkhan/Workspace/unity-games/VRCricketGame/VRCricket
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/amaanasadkhan/Workspace/unity-games
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4617074176] Host "[IP] 192.168.1.202 [Port] 0 [Flags] 2 [Guid] 3728817061 [EditorId] 3728817061 [Version] 1048832 [Id] OSXEditor(0,Amaans-MBP.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4832679424] Host "[IP] 192.168.1.202 [Port] 0 [Flags] 2 [Guid] 4217591635 [EditorId] 4217591635 [Version] 1048832 [Id] OSXEditor(0,Amaans-MBP.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4617074176] Host "[IP] 192.168.1.202 [Port] 0 [Flags] 2 [Guid] 3728817061 [EditorId] 3728817061 [Version] 1048832 [Id] OSXEditor(0,Amaans-MBP.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4832679424] Host "[IP] 192.168.1.202 [Port] 0 [Flags] 2 [Guid] 4217591635 [EditorId] 4217591635 [Version] 1048832 [Id] OSXEditor(0,Amaans-MBP.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 23.99 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 20.53 ms.
+Refreshing native plugins compatible for Editor in 28.82 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 30.14 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/amaanasadkhan/Workspace/unity-games/VRCricketGame/VRCricket/Assets
@@ -78,47 +78,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56455
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003894 seconds.
-- Loaded All Assemblies, in  0.713 seconds
+Registered in 0.003852 seconds.
+- Loaded All Assemblies, in  0.795 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 151 ms
+Android Extension - Scanning For ADB Devices 193 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.733 seconds
-Domain Reload Profiling: 1447ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1605ms
+	BeginReloadAssembly (172ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (329ms)
-		LoadAssemblies (176ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (320ms)
-				TypeCache.ScanAssembly (295ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (329ms)
+				TypeCache.ScanAssembly (306ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (734ms)
+	FinalizeReload (811ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (611ms)
+		SetupLoadedEditorAssemblies (701ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (362ms)
+			InitializePlatformSupportModulesInManaged (431ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,8 +126,8 @@ Domain Reload Profiling: 1447ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.825 seconds
-Refreshing native plugins compatible for Editor in 9.54 ms, found 11 plugins.
+- Loaded All Assemblies, in  1.508 seconds
+Refreshing native plugins compatible for Editor in 13.73 ms, found 11 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -147,49 +147,49 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.479 seconds
-Domain Reload Profiling: 3305ms
-	BeginReloadAssembly (211ms)
+- Finished resetting the current domain, in  3.598 seconds
+Domain Reload Profiling: 5107ms
+	BeginReloadAssembly (247ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
+		CreateAndSetChildDomain (58ms)
 	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (1409ms)
-		LoadAssemblies (845ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1098ms)
+		LoadAssemblies (498ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (655ms)
-			TypeCache.Refresh (560ms)
-				TypeCache.ScanAssembly (521ms)
-			ScanForSourceGeneratedMonoScriptInfo (63ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (1480ms)
+		AnalyzeDomain (723ms)
+			TypeCache.Refresh (594ms)
+				TypeCache.ScanAssembly (555ms)
+			ScanForSourceGeneratedMonoScriptInfo (83ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (3599ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1047ms)
+		SetupLoadedEditorAssemblies (2748ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (778ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (2374ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 20.84 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 1.52 ms.
-Unloading 6180 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 109 unused Assets / (86.9 KB). Loaded Objects now: 6648.
-Memory consumption went from 356.1 MB to 356.0 MB.
-Total: 15.133702 ms (FindLiveObjects: 0.944914 ms CreateObjectMapping: 0.847230 ms MarkObjects: 12.843190 ms  DeleteObjects: 0.496734 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 12.61 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 1.35 ms.
+Unloading 6183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 109 unused Assets / (86.9 KB). Loaded Objects now: 6651.
+Memory consumption went from 356.5 MB to 356.4 MB.
+Total: 20.060575 ms (FindLiveObjects: 1.079534 ms CreateObjectMapping: 1.032484 ms MarkObjects: 17.194648 ms  DeleteObjects: 0.751682 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -204,37 +204,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 377082.259045 seconds.
-  path: Assets/Samples
-  artifactKey: Guid(f17e771607346bb4ea2d7cdc50a90cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples using Guid(f17e771607346bb4ea2d7cdc50a90cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147e58c160f0d93062f88ff65863296d') in 0.003229 seconds
+  Time since last request: 1048214.044138 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73977b5806c980a352c729230e7754cc') in 0.002881 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08644b30c2e5a3aa33213581d94ae00') in 0.000425 seconds
+  Time since last request: 272.692840 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/fp_female_hand_mobile.fbx
+  artifactKey: Guid(1811c70d6aba6014196f17358b3e5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/fp_female_hand_mobile.fbx using Guid(1811c70d6aba6014196f17358b3e5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2c7f9434e8c92659bc678ff24f4c83') in 1.663132 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 88
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Scenes/vr_hands.unity
-  artifactKey: Guid(a01beada84808410b916fd28ba11b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/vr_hands.unity using Guid(a01beada84808410b916fd28ba11b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b28f74da55ef96a7657b81965c9176') in 0.000440 seconds
+  Time since last request: 0.000081 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/fp_male_hand_mobile.fbx
+  artifactKey: Guid(fec02ffbcaf80544198795273e8ef565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/fp_male_hand_mobile.fbx using Guid(fec02ffbcaf80544198795273e8ef565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dd7aacd24ca2e1dd0dccd4512b2527') in 0.064411 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/vr_female_hand_mobile.fbx
+  artifactKey: Guid(d75cacbeeb2b2e548825b252ced62972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/vr_female_hand_mobile.fbx using Guid(d75cacbeeb2b2e548825b252ced62972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647476dce698dfb2be946bb12bbaf22e') in 0.032668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/test_pistol.fbx
+  artifactKey: Guid(66826224fcf1f104f8fcb9ab87561c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/test_pistol.fbx using Guid(66826224fcf1f104f8fcb9ab87561c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819383b454e961e4755b17af04145bdb') in 0.044137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/vr_male_hand_mobile.fbx
+  artifactKey: Guid(49205c1c29fb4534fb87b17b62acbade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Meshes/vr_male_hand_mobile.fbx using Guid(49205c1c29fb4534fb87b17b62acbade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d7cf886a2c185dce66f7b5bd9e58ae') in 0.035069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 3.824258 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/FP_Character_Mobile.prefab
+  artifactKey: Guid(09a4d14b0b284ac48bcc8c9482f4cb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/FP_Character_Mobile.prefab using Guid(09a4d14b0b284ac48bcc8c9482f4cb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fbf062c479f1ba69764eeb9ae01d41') in 0.739238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 563
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/SteamVR_female_hand_left.prefab
+  artifactKey: Guid(0bb6bfc698d3ed247809e5bdb4389d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/SteamVR_female_hand_left.prefab using Guid(0bb6bfc698d3ed247809e5bdb4389d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8868b381692ba906e0b1743e779c6c') in 0.194907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/SteamVR_male_hand_right.prefab
+  artifactKey: Guid(5e6059195e3baa440b99b8e6d994f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/SteamVR_male_hand_right.prefab using Guid(5e6059195e3baa440b99b8e6d994f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'VR_Male_Hand_Controller_Right': Transition 'Indicate -> Base' in state 'Indicate' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorUtility.cs:662)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorUtility.cs:628)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:115)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:109)
+UnityEditor.GameObjectInspector:GetPreviewData (bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:941)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1150)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:47)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:14)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'ca10078978a1191252657a272c0e6c2a') in 0.163981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 173
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/SteamVR_male_hand_left.prefab
+  artifactKey: Guid(bcd2e7d0cc1fba44cadb4abc767db7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TPAssets/NatureManufacture Assets/VR Hands FP Arms/Prefabs/SteamVR_male_hand_left.prefab using Guid(bcd2e7d0cc1fba44cadb4abc767db7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'VR_Male_Hand_Controller_Left': Transition 'Indicate -> Base' in state 'Indicate' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorUtility.cs:662)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorUtility.cs:628)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:115)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:109)
+UnityEditor.GameObjectInspector:GetPreviewData (bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:941)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1150)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:47)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:14)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '2c105a4613e856918af1c7768f5ab3fa') in 0.153016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 41.70 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 1.12 ms.
+Refreshing native plugins compatible for Editor in 71.76 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 2.61 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 6648.
-Memory consumption went from 238.4 MB to 238.4 MB.
-Total: 14.040200 ms (FindLiveObjects: 1.060280 ms CreateObjectMapping: 0.510037 ms MarkObjects: 12.436088 ms  DeleteObjects: 0.032022 ms)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 6664.
+Memory consumption went from 247.2 MB to 247.2 MB.
+Total: 46.669700 ms (FindLiveObjects: 1.982192 ms CreateObjectMapping: 1.489179 ms MarkObjects: 43.168600 ms  DeleteObjects: 0.027223 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -250,175 +334,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.07 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.81 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 6648.
-Memory consumption went from 238.7 MB to 238.7 MB.
-Total: 8.331099 ms (FindLiveObjects: 0.609842 ms CreateObjectMapping: 0.419421 ms MarkObjects: 7.273479 ms  DeleteObjects: 0.027345 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.074 seconds
-Refreshing native plugins compatible for Editor in 11.27 ms, found 11 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.140 seconds
-Domain Reload Profiling: 3215ms
-	BeginReloadAssembly (276ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (121ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (673ms)
-		LoadAssemblies (431ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (341ms)
-			TypeCache.Refresh (257ms)
-				TypeCache.ScanAssembly (225ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2141ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1057ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (807ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.78 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.83 ms.
-Unloading 6090 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (63.6 KB). Loaded Objects now: 6652.
-Memory consumption went from 336.5 MB to 336.5 MB.
-Total: 9.352304 ms (FindLiveObjects: 0.675202 ms CreateObjectMapping: 0.362599 ms MarkObjects: 8.186421 ms  DeleteObjects: 0.126484 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 128.70 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 1.56 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (4.6 KB). Loaded Objects now: 6652.
-Memory consumption went from 242.8 MB to 242.7 MB.
-Total: 90.671917 ms (FindLiveObjects: 0.786866 ms CreateObjectMapping: 8.238761 ms MarkObjects: 81.521075 ms  DeleteObjects: 0.123529 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 102978.095518 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Tunneling Vignette/TunnelingVignette.prefab
-  artifactKey: Guid(1670dca8ee98f864eb412b51a24c08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Tunneling Vignette/TunnelingVignette.prefab using Guid(1670dca8ee98f864eb412b51a24c08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef79cd32e23505608ab2f92bc278e6a') in 0.146295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000987 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
-  artifactKey: Guid(0863a94853770ec459e2b729cb7fc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(0863a94853770ec459e2b729cb7fc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8053f33d66424fb8886eb9059e2491c9') in 0.001879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.031309 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.4.3/Tunneling Vignette/TunnelingVignette.mat
-  artifactKey: Guid(68559dda19465234ba3cd4af45b0c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.4.3/Tunneling Vignette/TunnelingVignette.mat using Guid(68559dda19465234ba3cd4af45b0c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Obtained 26 stack frames.
-#0  0x00000103e37ea0 in FileAccessor::Write(unsigned long long, void const*, unsigned long long*)
-#1  0x00000103df3d1b in File::Write(void const*, unsigned long)
-#2  0x000001054aee0f in PreviewImporter::GenerateAssetData(AssetImportContext&)
-#3  0x000001054fdbde in ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
-#4  0x000001054fc9a4 in ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
-#5  0x00000106177076 in ImportAssetWithAutoReleasePool(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
-#6  0x0000010552c582 in AssetImportWorker::Import(AssetResolver&, ImportAssetInputs const&, WorkerImportResponse&, IImportProgress*, bool*)
-#7  0x000001055df7d5 in invocation function for block in AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_5::operator()() const
-#8  0x007ff818110317 in _dispatch_client_callout
-#9  0x007ff81811d8ad in _dispatch_async_and_wait_invoke
-#10 0x007ff818110317 in _dispatch_client_callout
-#11 0x007ff81811cc78 in _dispatch_main_queue_drain
-#12 0x007ff81811c8bb in _dispatch_main_queue_callback_4CF
-#13 0x007ff8183cce67 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
-#14 0x007ff81838deff in __CFRunLoopRun
-#15 0x007ff81838cd6c in CFRunLoopRunSpecific
-#16 0x007ff82103a5e6 in RunCurrentEventLoopInMode
-#17 0x007ff82103a34a in ReceiveNextEventCommon
-#18 0x007ff82103a0e5 in _BlockUntilNextEventMatchingListInModeWithFilter
-#19 0x007ff81adc7f6d in _DPSNextEvent
-#20 0x007ff81adc662a in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
-#21 0x007ff81adb8cd9 in -[NSApplication run]
-#22 0x007ff81ad8cc57 in NSApplicationMain
-#23 0x000001061585a5 in EditorMain(int, char const**)
-#24 0x000001061588d9 in main
-#25 0x000001132b452e in (Unknown)
