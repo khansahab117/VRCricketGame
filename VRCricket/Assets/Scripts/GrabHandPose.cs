@@ -5,6 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class GrabHandPose : MonoBehaviour
 {
+    public float poseTransitionDuration = 0.2f;
     public HandData leftHandPose;
 
     private Vector3 startingHandPosition;
@@ -26,7 +27,7 @@ public class GrabHandPose : MonoBehaviour
         XRGrabInteractable grabInteractable = GetComponent<XRGrabInteractable>();
 
         grabInteractable.selectEntered.AddListener(SetupPose);
-
+        grabInteractable.selectExited.AddListener(UnSetPose);
         leftHandPose.gameObject.SetActive(false);
     }
 
@@ -42,8 +43,8 @@ public class GrabHandPose : MonoBehaviour
             handData.animator.enabled = false;
 
             SetHandDataValues(handData, leftHandPose);
-
-            SetHandData(handData, finalHandPosition, finalHandRotation, finalFingerRotations);
+            StartCoroutine(SetHandDataRoutine(handData, finalHandPosition, finalHandRotation, finalFingerRotations, startingHandPosition, startingHandRotation, startingFingerRotations));
+            //SetHandData(handData, finalHandPosition, finalHandRotation, finalFingerRotations);
 
             // if (handData == null)
             // {
@@ -51,6 +52,20 @@ public class GrabHandPose : MonoBehaviour
             // }
         }
 
+    }
+
+    public void UnSetPose(BaseInteractionEventArgs arg)
+    {
+        if (arg.interactorObject is XRDirectInteractor)
+        {
+            // gameObject.SetActive(false);
+            HandData handData = arg.interactorObject.transform.GetComponentInChildren<HandData>();
+            //HandData handData = XRLeftHand.GetComponentInChildren<HandData>();
+            handData.animator.enabled = true;
+            StartCoroutine(SetHandDataRoutine(handData, startingHandPosition, startingHandRotation, startingFingerRotations, finalHandPosition, finalHandRotation, finalFingerRotations));
+
+            // SetHandData(handData, startingHandPosition, startingHandRotation, startingFingerRotations);
+        }
     }
 
 
@@ -86,13 +101,35 @@ public class GrabHandPose : MonoBehaviour
     public void SetHandData(HandData h, Vector3 newPosition, Quaternion newRotation, Quaternion[] newBonesRotation)
     {
         h.root.localPosition = newPosition;
-        h.root.localRotation = Quaternion.Inverse(newRotation);//newRotation; 
+        h.root.localRotation = newRotation; //Quaternion.Inverse(newRotation);//
 
         // Invert only the rotation around the y-axis
-        
+
         for (int i = 0; i < newBonesRotation.Length; i++)
         {
             h.fingerBones[i].localRotation = newBonesRotation[i];
+        }
+    }
+
+    //i honestly dont know what this is doing? wth is lerp 
+    public IEnumerator SetHandDataRoutine(HandData h, Vector3 newPosition, Quaternion newRotation, Quaternion[] newBonesRotation, Vector3 startingPosition, Quaternion startingRotation, Quaternion[] startingBonesRotation)
+    {
+        float timer = 0;
+        while (timer < poseTransitionDuration)
+        {
+            Vector3 p = Vector3.Lerp(startingPosition, newPosition, timer / poseTransitionDuration);
+            Quaternion r = Quaternion.Lerp(startingRotation, newRotation, timer / poseTransitionDuration);
+
+            h.root.localPosition = p;
+            h.root.localRotation = r;
+
+            for (int i = 0; i < newBonesRotation.Length; i++)
+            {
+                h.fingerBones[i].localRotation = Quaternion.Lerp(startingBonesRotation[i], newBonesRotation[i], timer / poseTransitionDuration);
+            }
+
+            timer += Time.deltaTime;
+            yield return null;
         }
     }
 
