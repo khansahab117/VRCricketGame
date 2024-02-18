@@ -319,8 +319,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "4.1.1",
-      "depth": 1,
+      "version": "4.1.2",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.4.0"
@@ -329,7 +329,7 @@
     },
     "com.unity.xr.openxr": {
       "version": "1.8.2",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
